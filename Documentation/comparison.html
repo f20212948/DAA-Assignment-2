@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RNA Sequence and Structure Comparison</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sequence-card {
+    width: 90%;
+    max-width: 1000px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .sequence-card img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .sequence-card p {
+    word-wrap: break-word;
+  }
+  h1 {
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+    <h1>Experimental Results</h1>
+<div class="container">
+  <!-- Sequence 1 -->
+  <div class="sequence-card">
+    <h2>Sequence 1</h2>
+    <p>Sequence: ACUAGUGAGGGACAGAACCAGGAUUCAGACUCAGGUCCAUGGGCCUGGAUCACUGG</p>
+    <p>Length: 56</p>
+    <p>Pairs: 17</p>
+    <p>Dot-Bracket Notation: (((....))((((((..(((((((....)(....)))).))).).))..)).))..</p>
+    <p>Time taken: 514 microseconds</p>
+    <h3>Actual Structure</h3>
+    <img src="1-actual.png" alt="Actual Structure">
+    <h3>Generated Structure</h3>
+    <img src="1-algo.jpg" alt="Derived Structure">
+  </div>
+
+  <!-- Sequence 2 -->
+  <div class="sequence-card">
+    <h2>Sequence 2</h2>
+    <p>Sequence: CCUUCUUGUAUAAGCACUGUGCUAAAAUUGCAGACACUAGGACCAUGUCUUGGUUUUUGCAAUAAUGCUAGCAGAGUACACACAAGAAGAAAAGUAACAGCACUAGAUUGUAAAGACUGGGGUGGACCUCUUUCUUAAUGUCCAAUGUCCUUUGUCUUAAGAUUUGGUGCAAUAUCU</p>
+    <p>Length: 177</p>
+    <p>Pairs: 61</p>
+    <p>Dot-Bracket Notation: .((((((((.(..(.(((.((((.((((((((.(.(..(..((((....).))))))))))))..)..))))).))).)).)))))((((((((..((((((.((.(..(.(((((....((....))))))))))).)).)...)))).))).)))))))((((.....)).))..</p>
+    <p>Time taken: 17529 microseconds</p>
+    <h3>Actual Structure</h3>
+    <img src="2-actual.png" alt="Actual Structure">
+    <h3>Generated Structure</h3>
+    <img src="2-algo.jpg" alt="Derived Structure">
+  </div>
+
+  <!-- Add more sequences here following the same pattern -->
+  <div class="sequence-card">
+    <h2>Sequence 3</h2>
+    <p>Sequence: GCCACAUGAUGAUAUCAAGGCUGUUGUGAUUCAGUUGGUUUGGCUAAGCCCAGGGACCUUUGGCCUGUUAAAGGUCUGUAAUCUUGGUGGGCGAUACAGAGUUAUGUGUGUUCACUGUAAGGGCAGACCAACAAGAACUUUUUCCUACUUUUGAGCUACCUCUUUUUAAUAGGGGUGAUUCUUCCAGUUGCUGGAGAGAAAUUGUGGUAACUGGAGUGAGAGAGUAGGAACAGGGCAUGUUCAGGGUAUCAGGGCCAAGGGUCCUAAAGGACUUAGCUUGUGUUAUGGCCACUGAGAGAUGAAACACAGAUCUUUGGUAAUCUGAUGGCU</p>
+    <p>Length: 330</p>
+    <p>Pairs: 116</p>
+    <p>Dot-Bracket Notation: ((((((.((.((((.((....)))((((((((..((.(.((((((..(((((.(((....)..))))(((((..(((((.(((...(....))))))))).))(.(((....)))).))))).))).)))))))))).).((((((.((....))(((((((..(((((((....).)))(((((((((.((....))((....)..))))))))...))).)..))(((((.....)))))))).))((((((((((..((((....)))))((.(....)).)))))).)))))))..)))))))).)))((....)))))).)))).</p>
+    <p>Time taken: 58170 microseconds</p>
+    <h3>Actual Structure</h3>
+    <img src="3-actual.png" alt="Actual Structure">
+    <h3>Generated Structure</h3>
+    <img src="3-algo.jpg" alt="Derived Structure">
+  </div>
+
+  <div class="sequence-card">
+    <h2>Sequence 4</h2>
+    <p>Sequence: GGGCGCCUCCGCGCUCCCGCCUCCUCCUGGCAACCUGGUGCGCGGCUCCGGACCUGGCGACCCACGACCGGCUGGUCACUUGCUGCCACCUCGCAAAGGCGCAUCUCUAGUUCAGUGGUGAGCUGCGGCCGGGUCGCUGCAACUCGCUCCAGGCCUCCGGACUCGUGGCCUCGGUGUCCCUCGCGGAGCCCUCGGUGUGUCGCUUGCAGGCUCUUUUUUUGAAGAAAGCAGGGAGGGAAUGGCCUUGUGAGAGACUCCAGGAGCAAAGAGCGACCCUCACAAGGCCCAAGUCCUCCCAGAGCUCAGGGAAGCUGUCGCUUCUGACAGAAGAAGGGAGACAAAGCUCCCUCCUGUGUGUCCCUGGUGGUCUAGUGGCUAGGAUUCGGCGCUUUCACCGCCGCGGCCCGGGUUCGAUUCCCGGCCAGGGAAUUGUUUUACACUGGCCGCCCUCCCGCAGGAAUCUUCCUUCACUACGCUGUCAGCCGGCCUGCUCCAAGGGCCAGAAGCAGAACAGUCUCCGCAGCGGGGUUAAAGCCGGGCGAAGGAGGGCAAGUGCUGGUGGACCACCUCUCACGACACACCGUUCCUGUUUAUCUCAGUGUCCGUCAUCCGCGGGAGCAGCUUUAGAGAGCGACUGAGCGUCUCGCUCCGGUGUACACAGCCCGGCAAAGAUGCCAGCCCCCGUGGAGCUGCACCCAAUAAGCCCACCUUCUUUCCCGUCGCCACCCCGGAGACGCCCAUCGGGCUGAGCUGCGAAUAACUAAGAGAGAGGCCAAGCCAAGUCGUGGCGUUUGUGGCAGCCCCGGACACGGGCACCAGCCAGUCAGCGGAGCCUCCUCACCUCCGUUGCCAGCGAAGGCGCUCGUUAGGCCUUGGGAAGAGGCGACCGGAGGCGAUGCCCGCGAAUUUGUUAGGGGGAGUUGCUGAUCCCUGUGAUUUCCUCCAUGUGGGAAACGGUGUUUGUGCUAGAAGAGGCUGCGCUCUUUACCUGACAUAACGGGGUUCAAGACUGACAACGCCUCACGCCCACCCGAAAACGUUUACAUGGCUUCCUUGUCUCUUUUUUUUUCUGUCCUAAAGUCGCCUCAUCUUCACAUCCCCUCUUUUUUUUCUUCCACACUCGAGAGUGUCUCUCUCUCUCAGUAAAAGCUCCACCAAAUAUUUGAAAUAUCUCAACCAGAAAGACUGCAAUAAAUACAUUAUUUCAUUCGUGGAAGGUACAGACCAGCUA</p>
+    <p>Length: 1231</p>
+    <p>Pairs: 440</p>
+    <p>Dot-Bracket Notation: .((.(.((((((((.(((((((((.(((.(.((.(((((((((((..((((..((((....))).).)))))(((.((.....))))))((....).)))))).).).))))))).)).)))..))))..))(..(..((.((.((....(((.(.(((....)).)))))))))).))).)))))))))((.(((.((((.(((.(((((((.(((((((.((((((.(((((..(..(((((.((.((.....))))))..)(((((((((..(.(((((.((((((.((((((((((.(.(((((((((....))))).((((.(((.((((((......))))))).).).))))))))))...)).).))..)))))).)).))))((.(((((.(((((((....))((((((.....)))))).).(((((.((((.((....)..))((((....)))).))(..(((((.(.(..(((((((.(....))).))..))(((....))))))))))))))).)))))))))))..))))((.(((((.(((((((.....)).)))..)))))..))))))((((((((((((((((.(....)))).).)).))...))))(.(((.(((((.((((((((((((..(((.(...((.(((((((.((((((....)).)))))(.....))((....).))))))))))).)).)))..)))).(.((....)))).)))).)).((.((..((((((.(((..(((((.(((((((((((((((((..(.((((....))))).))).)((.(((((..(((((((((.(((.(.((.((..(.(((((.((....)))))))))))))))).))..)))))).((.(((.(.((....)).)))).).))))))))(((((.((.....)))).).))))))))(((((((((.((.(((((....)..)))))))...))).)))((((((((....))).).).)).))).)).))..))((....)).).))))))))))..))))))))))..).))))))))))))).)).).))))).)))).))))((((((.((....(((.(((((.(.....).))))))))))))(.....)(((....)))))).)))))))..).)))))..))(((((((.....)))).)))).)).)))).))).))))))..</p>
+    <p>Time taken: 3137928 microseconds</p>
+    <h3>Actual Structure</h3>
+    <img src="4-actual.png" alt="Actual Structure">
+    <h3>Generated Structure</h3>
+    <img src="4-algo.jpg" alt="Derived Structure">
+  </div>
+
+  <div class="sequence-card">
+    <h2>Sequence 5</h2>
+    <p>Sequence: AAGACUAUACUUUCAGGGAUCAUUUCUAUAGUGUGUUACUAGAGAAGUUUCUCUGAACGUGUAGAGCACCGAAAACCACGAGGAAGAGAGGUAGCGUUUUCUCCUGAGCGUGAAGCCGGCUUUCUGGCGUUGCUUGGCUGCAACUGCCGUCAGCCAUUGAUGAUCGUUCUUCUCUCCGUAUUGGGGAGUGAGAGGGAGAGAACGCGGUCUGAGUGGU</p>
+    <p>Length: 217</p>
+    <p>Pairs: 75</p>
+    <p>Dot-Bracket Notation: ...((...((..(((.((((((..((.(.(.((.(((.(.(((((....))))))))(.((.((.((((((.((((((.((.(((.(.((....).))))))).)(.((.....))))).)))).)).(((((......))))))))).)))))))))))))))(((((.(((((.(.((.(....).).))))..)))))))))...))))))).)</p>
+    <p>Time taken: 13871 microseconds</p>
+    <h3>Actual Structure</h3>
+    <img src="5-actual.png" alt="Actual Structure">
+    <h3>Generated Structure</h3>
+    <img src="5-algo.jpg" alt="Derived Structure">
+  </div>
+</div>
+
+</body>
+</html>

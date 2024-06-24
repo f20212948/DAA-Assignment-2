@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RNA Sequence Analysis Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        h3 {
+            color: #FF5722;
+        }
+        p, ul, ol {
+            margin-bottom: 20px;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+        code {
+            background-color: #f8f9fa;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .navigation {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .navigation button {
+            margin-right: 10px;
+            padding: 8px 16px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .navigation button:hover {
+            background-color: #0056b3;
+        }
+        .description {
+            margin-bottom: 20px;
+        }
+        .description img {
+            max-width: 100%;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .references {
+            margin-top: 20px;
+        }
+        .references h2 {
+            color: #FF5722;
+        }
+        .team-members {
+            margin-bottom: 20px;
+        }
+        .team-members h2 {
+            color: #FF5722;}
+    </style>
+</head>
+<body>
+   
+    <div class="container">
+        <h1>RNA Sequence Analysis Documentation</h1>
+      
+        <!-- Navigation Buttons -->
+        <div class="navigation">
+            <button onclick="window.location.href='comparison.html'">Experimental Results</button>
+            <button onclick="window.location.href='doc.html'">Code Documentation</button>
+        </div>
+
+        <!-- Description of RNA-base pairing algorithm -->
+        <div class="description">
+            <h2>RNA-base Pairing Algorithm</h2>
+            <p>
+                
+The RNA base pairing algorithm, developed by Eva Tardos and Jon Kleinberg, is a computational approach used to predict the secondary structure of RNA molecules based on their primary sequence. The algorithm employs dynamic programming techniques to efficiently determine the optimal pairing of nucleotides within the RNA sequence.The RNA-base pairing algorithm checks if two characters form a valid RNA base pair.
+                Valid pairs include <code>AU</code>, <code>UA</code>, <code>GC</code>, and <code>CG</code>.
+                It utilizes dynamic programming to compute the maximum number of base pairs in the RNA sequence. <br>
+                The algorithm constructs a dynamic programming table to store the intermediate results of subproblems. Each entry in the table represents the maximum number of base pairs that can be formed within a specific subsequence of the RNA.
+                <br>
+                The algorithm achieves polynomial-time complexity, making it computationally efficient for analyzing large RNA sequences. The use of dynamic programming allows the algorithm to avoid redundant computations and efficiently explore the space of possible pairings.
+            </p>
+            <h2>Time Analysis</h2>
+            <img src="time.png" alt="RNA Base Pairing Algorithm">
+            <p>Performance measured on AMD Ryzen 7 6800HS, with 8 cores and 16 logical processors</p>
+        </div>
+
+        <!-- References -->
+        <div class="references">
+            <h2>References</h2>
+            <ul>
+                <li>Jon Kleinberg and Éva Tardos. Algorithm Design. Pearson, 2006.</li>
+                <li>Michael T. Goodrich and Roberto Tamassia. Algorithm Design and Applications. Wiley, 2014.</li>
+                
+                <li>David Mount. Bioinformatics: Sequence and Genome Analysis. Cold Spring Harbor Laboratory Press, 2004.</li>
+            </ul>
+        </div>
+        <div class="team-members">
+            <h2>Team Members</h2>
+            <ul>
+                <li>Abhishek Joshi - 2021A7PS2727H</li>
+                <li>Aryan Saluja - 2021A7PS2947H</li>
+                <li>Vansh Agrawal - 2021A7PA2998H</li>
+                <li>Ninad Agrawal - 2021A7PS2948H</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

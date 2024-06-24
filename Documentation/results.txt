@@ -1,0 +1,29 @@
+1. ACUAGUGAGGGACAGAACCAGGAUUCAGACUCAGGUCCAUGGGCCUGGAUCACUGG
+56
+17 pairs
+Time taken by function: 514 microseconds
+(((....))((((((..(((((((....)(....)))).))).).))..)).))..
+
+2. CCUUCUUGUAUAAGCACUGUGCUAAAAUUGCAGACACUAGGACCAUGUCUUGGUUUUUGCAAUAAUGCUAGCAGAGUACACACAAGAAGAAAAGUAACAGCACUAGAUUGUAAAGACUGGGGUGGACCUCUUUCUUAAUGUCCAAUGUCCUUUGUCUUAAGAUUUGGUGCAAUAUCU
+    177
+61 pairs
+Time taken by function: 17529 microseconds
+.((((((((.(..(.(((.((((.((((((((.(.(..(..((((....).))))))))))))..)..))))).))).)).)))))((((((((..((((((.((.(..(.(((((....((....))))))))))).)).)...)))).))).)))))))((((.....)).))..
+
+3. GCCACAUGAUGAUAUCAAGGCUGUUGUGAUUCAGUUGGUUUGGCUAAGCCCAGGGACCUUUGGCCUGUUAAAGGUCUGUAAUCUUGGUGGGCGAUACAGAGUUAUGUGUGUUCACUGUAAGGGCAGACCAACAAGAACUUUUUCCUACUUUUGAGCUACCUCUUUUUAAUAGGGGUGAUUCUUCCAGUUGCUGGAGAGAAAUUGUGGUAACUGGAGUGAGAGAGUAGGAACAGGGCAUGUUCAGGGUAUCAGGGCCAAGGGUCCUAAAGGACUUAGCUUGUGUUAUGGCCACUGAGAGAUGAAACACAGAUCUUUGGUAAUCUGAUGGCU
+330
+116 pairs
+Time taken by function: 58170 microseconds
+((((((.((.((((.((....)))((((((((..((.(.((((((..(((((.(((....)..))))(((((..(((((.(((...(....))))))))).))(.(((....)))).))))).))).)))))))))).).((((((.((....))(((((((..(((((((....).)))(((((((((.((....))((....)..))))))))...))).)..))(((((.....)))))))).))((((((((((..((((....)))))((.(....)).)))))).)))))))..)))))))).)))((....)))))).)))).
+
+4. GGGCGCCUCCGCGCUCCCGCCUCCUCCUGGCAACCUGGUGCGCGGCUCCGGACCUGGCGACCCACGACCGGCUGGUCACUUGCUGCCACCUCGCAAAGGCGCAUCUCUAGUUCAGUGGUGAGCUGCGGCCGGGUCGCUGCAACUCGCUCCAGGCCUCCGGACUCGUGGCCUCGGUGUCCCUCGCGGAGCCCUCGGUGUGUCGCUUGCAGGCUCUUUUUUUGAAGAAAGCAGGGAGGGAAUGGCCUUGUGAGAGACUCCAGGAGCAAAGAGCGACCCUCACAAGGCCCAAGUCCUCCCAGAGCUCAGGGAAGCUGUCGCUUCUGACAGAAGAAGGGAGACAAAGCUCCCUCCUGUGUGUCCCUGGUGGUCUAGUGGCUAGGAUUCGGCGCUUUCACCGCCGCGGCCCGGGUUCGAUUCCCGGCCAGGGAAUUGUUUUACACUGGCCGCCCUCCCGCAGGAAUCUUCCUUCACUACGCUGUCAGCCGGCCUGCUCCAAGGGCCAGAAGCAGAACAGUCUCCGCAGCGGGGUUAAAGCCGGGCGAAGGAGGGCAAGUGCUGGUGGACCACCUCUCACGACACACCGUUCCUGUUUAUCUCAGUGUCCGUCAUCCGCGGGAGCAGCUUUAGAGAGCGACUGAGCGUCUCGCUCCGGUGUACACAGCCCGGCAAAGAUGCCAGCCCCCGUGGAGCUGCACCCAAUAAGCCCACCUUCUUUCCCGUCGCCACCCCGGAGACGCCCAUCGGGCUGAGCUGCGAAUAACUAAGAGAGAGGCCAAGCCAAGUCGUGGCGUUUGUGGCAGCCCCGGACACGGGCACCAGCCAGUCAGCGGAGCCUCCUCACCUCCGUUGCCAGCGAAGGCGCUCGUUAGGCCUUGGGAAGAGGCGACCGGAGGCGAUGCCCGCGAAUUUGUUAGGGGGAGUUGCUGAUCCCUGUGAUUUCCUCCAUGUGGGAAACGGUGUUUGUGCUAGAAGAGGCUGCGCUCUUUACCUGACAUAACGGGGUUCAAGACUGACAACGCCUCACGCCCACCCGAAAACGUUUACAUGGCUUCCUUGUCUCUUUUUUUUUCUGUCCUAAAGUCGCCUCAUCUUCACAUCCCCUCUUUUUUUUCUUCCACACUCGAGAGUGUCUCUCUCUCUCAGUAAAAGCUCCACCAAAUAUUUGAAAUAUCUCAACCAGAAAGACUGCAAUAAAUACAUUAUUUCAUUCGUGGAAGGUACAGACCAGCUA
+1231
+440 pairs
+Time taken by function: 3137928 microseconds
+.((.(.((((((((.(((((((((.(((.(.((.(((((((((((..((((..((((....))).).)))))(((.((.....))))))((....).)))))).).).))))))).)).)))..))))..))(..(..((.((.((....(((.(.(((....)).)))))))))).))).)))))))))((.(((.((((.(((.(((((((.(((((((.((((((.(((((..(..(((((.((.((.....))))))..)(((((((((..(.(((((.((((((.((((((((((.(.(((((((((....))))).((((.(((.((((((......))))))).).).))))))))))...)).).))..)))))).)).))))((.(((((.(((((((....))((((((.....)))))).).(((((.((((.((....)..))((((....)))).))(..(((((.(.(..(((((((.(....))).))..))(((....))))))))))))))).)))))))))))..))))((.(((((.(((((((.....)).)))..)))))..))))))((((((((((((((((.(....)))).).)).))...))))(.(((.(((((.((((((((((((..(((.(...((.(((((((.((((((....)).)))))(.....))((....).))))))))))).)).)))..)))).(.((....)))).)))).)).((.((..((((((.(((..(((((.(((((((((((((((((..(.((((....))))).))).)((.(((((..(((((((((.(((.(.((.((..(.(((((.((....)))))))))))))))).))..)))))).((.(((.(.((....)).)))).).))))))))(((((.((.....)))).).))))))))(((((((((.((.(((((....)..)))))))...))).)))((((((((....))).).).)).))).)).))..))((....)).).))))))))))..))))))))))..).))))))))))))).)).).))))).)))).))))((((((.((....(((.(((((.(.....).))))))))))))(.....)(((....)))))).)))))))..).)))))..))(((((((.....)))).)))).)).)))).))).))))))..
+
+5. AAGACUAUACUUUCAGGGAUCAUUUCUAUAGUGUGUUACUAGAGAAGUUUCUCUGAACGUGUAGAGCACCGAAAACCACGAGGAAGAGAGGUAGCGUUUUCUCCUGAGCGUGAAGCCGGCUUUCUGGCGUUGCUUGGCUGCAACUGCCGUCAGCCAUUGAUGAUCGUUCUUCUCUCCGUAUUGGGGAGUGAGAGGGAGAGAACGCGGUCUGAGUGGU
+217
+75 pairs
+Time taken by function: 13871 microseconds
+...((...((..(((.((((((..((.(.(.((.(((.(.(((((....))))))))(.((.((.((((((.((((((.((.(((.(.((....).))))))).)(.((.....))))).)))).)).(((((......))))))))).)))))))))))))))(((((.(((((.(.((.(....).).))))..)))))))))...))))))).)

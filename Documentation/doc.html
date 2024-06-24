@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #007bff;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        h3 {
+            color: #FF5722;
+        }
+        p, ul, ol {
+            margin-bottom: 20px;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+        code {
+            background-color: #f8f9fa;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Code Documentation</h1>
+
+    <h2>Overview</h2>
+    <p>
+        This C++ program is designed to analyze RNA sequences and generate dot-bracket notation representing their secondary structure.
+        It utilizes dynamic programming to calculate the maximum number of base pairs that can be formed within the sequence.
+    </p>
+
+    <h2>Components</h2>
+    <ol>
+        <li><strong>isValidPair Function</strong>:
+            <ul>
+                <li>Checks if two characters form a valid RNA base pair.</li>
+                <li>Valid pairs include <code>AU</code>, <code>UA</code>, <code>GC</code>, and <code>CG</code>.</li>
+            </ul>
+        </li>
+        <li><strong>numBasePairs Function</strong>:
+            <ul>
+                <li>Uses dynamic programming to compute the maximum number of base pairs in the RNA sequence.</li>
+                <li>Iterates over all substrings of the RNA sequence and calculates the maximum number of base pairs that can be formed.</li>
+            </ul>
+        </li>
+        <li><strong>printPairs Function</strong>:
+            <ul>
+                <li>Traces back through the dynamic programming table to find the indices of base pairs.</li>
+                <li>Utilizes a stack to track the indices of base pairs.</li>
+            </ul>
+        </li>
+        <li><strong>Main Function</strong>:
+            <ul>
+                <li>Reads the RNA sequence from an input file named <code>"sample.txt"</code>.</li>
+                <li>Calculates the maximum number of base pairs and prints it.</li>
+                <li>Generates dot-bracket notation representing the secondary structure of the RNA.</li>
+                <li>Writes the dot-bracket notation to an output file named <code>"output.txt"</code>.</li>
+                <li>Executes a Python script named <code>"visual.py"</code> for visualization of the RNA structure.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>Execution</h2>
+    <p>
+        The program requires an input file named <code>"sample.txt"</code> containing the RNA sequence.
+        It generates an output file named <code>"output.txt"</code> containing the dot-bracket notation.
+        Additionally, it executes a Python script <code>"visual.py"</code> for visualization of the RNA structure.
+    </p>
+
+    <h2>Dependencies</h2>
+    <p>
+        The program uses standard C++ libraries and requires a C++ compiler.
+        It also relies on a Python environment to execute the visualization script.
+    </p>
+
+    <h2>How to Use</h2>
+    <ol>
+        <li>Ensure that the input RNA sequence is provided in the <code>"sample.txt"</code> file.</li>
+        <li>Compile the C++ program using a C++ compiler.</li>
+        <li>Run the compiled executable.</li>
+        <li>Check the <code>"output.txt"</code> file for the generated dot-bracket notation.</li>
+        <li>Visualize the RNA structure using the provided Python script <code>"visual.py"</code>.</li>
+    </ol>
+
+    <h2>Note</h2>
+    <ul>
+        <li>It's essential to validate the input RNA sequence for correctness and adherence to the expected format.</li>
+        <li>Ensure that the Python environment is properly configured to execute the visualization script.</li>
+        <li>This program assumes the input RNA sequence contains only valid characters <code>'A'</code>, <code>'U'</code>, <code>'G'</code>, and <code>'C'</code>.</li>
+    </ul>
+</body>
+</html>
